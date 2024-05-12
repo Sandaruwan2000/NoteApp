@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteAdd">
+
+
+    <TextView
+        android:id="@+id/Addtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/tik"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="340dp"
+
+        />
+
+    <EditText
+        android:id="@+id/theam"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/green_border"
+        android:ems="10"
+        android:hint="@string/theam"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+
+        />
+
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="380dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/green_border"
+        android:ems="10"
+        android:hint="@string/message"
+        android:paddingBottom="550dp"
+        android:paddingLeft="20dp"
+
+        android:inputType="text" />
+
+
+</RelativeLayout>

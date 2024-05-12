@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Note">
+
+
+    <TextView
+        android:id="@+id/noteheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/noteheader"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="374dp"
+        android:layout_height="592dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/add"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="350dp"
+        android:backgroundTint="@color/green"
+        />
+
+
+
+</RelativeLayout>
